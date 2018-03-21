@@ -7,6 +7,7 @@ var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 var browserSync = require('browser-sync').create();
 var fileinclude = require('gulp-file-include');
+var ghPages = require('gulp-gh-pages');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -135,4 +136,9 @@ gulp.task('dev', ['default', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./pages/**/*.html', ['fileinclude', browserSync.reload]);
+});
+
+gulp.task('deploy', function () {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 });
