@@ -178,24 +178,29 @@ header.masthead {
 
 header.masthead .intro-text {
   padding-top: 150px;
-  padding-bottom: 100px;
+  color: #36bffe;
+  text-shadow: 2px 2px #000;
 }
 
-header.masthead .intro-text .intro-lead-in {
-  background-color: rgba(90, 90, 90, 0.7);
+header.masthead .intro-text .text-grouping {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 100px;
+}
+
+header.masthead .intro-text .text-grouping .intro-lead-in {
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
-  margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-header.masthead .intro-text .intro-heading {
-  background-color: rgba(90, 90, 90, 0.7);
+header.masthead .intro-text .text-grouping .intro-heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 0;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
