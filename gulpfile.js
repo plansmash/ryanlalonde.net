@@ -138,7 +138,7 @@ gulp.task('dev', ['default', 'browserSync'], function() {
   gulp.watch('./pages/**/*.html', ['fileinclude', browserSync.reload]);
 });
 
-gulp.task('deploy', function () {
+gulp.task('deploy', ['default'], function () {
   return gulp.src('./dist/**/*')
     .pipe(ghPages());
 });
