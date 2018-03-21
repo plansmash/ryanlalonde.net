@@ -67,11 +67,12 @@ section h3.section-subheading {
 .btn-primary {
   background-color: #36bffe;
   border-color: #36bffe;
+  text-shadow: 2px 2px #000;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #10b3fe !important;
-  border-color: #10b3fe !important;
+  background-color: #017bb4 !important;
+  border-color: #017bb4 !important;
   color: white;
 }
 
@@ -230,6 +231,10 @@ header.masthead .intro-text .text-grouping .intro-heading {
   text-transform: none;
 }
 
+#videos {
+  text-align: center;
+}
+
 #videos .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -265,7 +270,6 @@ header.masthead .intro-text .text-grouping .intro-heading {
   width: 100%;
   height: 20px;
   margin-top: -12px;
-  text-align: center;
   color: white;
 }
 
@@ -319,7 +323,6 @@ header.masthead .intro-text .text-grouping .intro-heading {
 
 .portfolio-modal .modal-content {
   padding: 100px 0;
-  text-align: center;
 }
 
 .portfolio-modal .modal-content h2 {
