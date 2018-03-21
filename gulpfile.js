@@ -6,6 +6,7 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 var browserSync = require('browser-sync').create();
+var fileinclude = require('gulp-file-include');
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -16,14 +17,18 @@ var banner = ['/*!\n',
   ''
 ].join('');
 
+// Include files
+gulp.task('fileinclude', function () {
+  gulp.src(['./pages/index.html'])
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    .pipe(gulp.dest('./dist/'));
+});
+
 // Copy third files to dist folder
 gulp.task('copy', function() {
-
-  // HTML
-  gulp.src([
-    './pages/**/*.html'
-  ])
-    .pipe(gulp.dest('./dist/'))
 
   // Images
   gulp.src([
@@ -114,7 +119,7 @@ gulp.task('js:minify', function() {
 gulp.task('js', ['js:minify']);
 
 // Default task
-gulp.task('default', ['css', 'js', 'copy']);
+gulp.task('default', ['fileinclude', 'css', 'js', 'copy']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
@@ -126,8 +131,8 @@ gulp.task('browserSync', function() {
 });
 
 // Dev task
-gulp.task('dev', ['css', 'js', 'browserSync'], function() {
+gulp.task('dev', ['default', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
-  gulp.watch('./pages/*.html', browserSync.reload);
+  gulp.watch('./pages/**/*.html', ['fileinclude', browserSync.reload]);
 });
