@@ -10,7 +10,7 @@ header.masthead {
   .intro-text {
     padding-top: 150px;
     color: $primary;
-    text-shadow: 2px 2px #000;
+    text-shadow: $textshadow;
     .text-grouping {
       background-color: rgba(0, 0, 0, .7);
       width: 100%;

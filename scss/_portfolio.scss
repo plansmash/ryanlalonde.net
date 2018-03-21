@@ -1,5 +1,6 @@
 // Styling for the portfolio section
 #videos {
+  text-align: center;
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -28,7 +29,6 @@
           width: 100%;
           height: 20px;
           margin-top: -12px;
-          text-align: center;
           color: white;
           i {
             margin-top: -12px;
@@ -78,7 +78,6 @@
   }
   .modal-content {
     padding: 100px 0;
-    text-align: center;
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
