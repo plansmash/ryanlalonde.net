@@ -1,6 +1,9 @@
 // Styling for the portfolio section
 #videos {
   text-align: center;
+  .text-muted {
+    color: $gray-400 !important;
+  }
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -45,7 +48,7 @@
       margin: 0 auto;
       padding: 25px;
       text-align: center;
-      background-color: $white;
+      background-color: $black;
       h4 {
         margin: 0;
         text-transform: none;
