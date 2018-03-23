@@ -243,6 +243,11 @@ header.masthead .intro-text .text-grouping .intro-heading {
   text-align: center;
 }
 
+#videos iframe {
+  width: 100%;
+  border: 0;
+}
+
 #videos .text-muted {
   color: #ced4da !important;
 }
