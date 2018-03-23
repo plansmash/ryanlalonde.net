@@ -1,6 +1,10 @@
 // Styling for the portfolio section
 #videos {
   text-align: center;
+  iframe {
+    width: 100%;
+    border: 0;
+  }
   .text-muted {
     color: $gray-400 !important;
   }
