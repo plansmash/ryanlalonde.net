@@ -1,5 +1,11 @@
 // Styling for the portfolio section
 #videos {
+  background-image: url('../img/banner_video.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-attachment: fixed;
+  @include background-cover;
   text-align: center;
   iframe {
     width: 100%;
@@ -52,7 +58,8 @@
       margin: 0 auto;
       padding: 25px;
       text-align: center;
-      background-color: $black;
+      background-color: $white;
+      color: $black;
       h4 {
         margin: 0;
         text-transform: none;
@@ -62,6 +69,9 @@
         font-style: italic;
         margin: 0;
         @include serif-font;
+      }
+      .text-muted {
+        color: $gray-600!important;
       }
     }
   }

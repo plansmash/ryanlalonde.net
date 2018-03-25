@@ -1,5 +1,21 @@
 // Styling for the services section
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+#events{
+  background-image: url('../img/banner_event.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  .text-grouping {
+      background-color: rgba(0, 0, 0, .7);
+      width: 100%;
+      color: white;
+      padding: 25px;
+      margin-bottom: 100px;
+    }
+    .section-subheading {
+      margin-bottom: 15px 0;
+      text-transform: none;
+      color:#aaa!important;
+    }
 }

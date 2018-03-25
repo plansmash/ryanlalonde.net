@@ -2,9 +2,9 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/banner_back.jpg');
+  background-image: url('../img/banner_head.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   @include background-cover;
   .intro-text {
