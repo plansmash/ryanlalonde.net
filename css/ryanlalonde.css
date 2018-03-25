@@ -43,7 +43,6 @@ section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -175,9 +174,9 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/banner_back.jpg");
+  background-image: url("../img/banner_head.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -234,12 +233,39 @@ header.masthead .intro-text .text-grouping .intro-heading {
   }
 }
 
-.service-heading {
-  margin: 15px 0;
+#events {
+  background-image: url("../img/banner_event.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+#events .text-grouping {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  color: white;
+  padding: 25px;
+  margin-bottom: 100px;
+}
+
+#events .section-subheading {
+  margin-bottom: 15px 0;
   text-transform: none;
+  color: #aaa !important;
 }
 
 #videos {
+  background-image: url("../img/banner_video.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
 }
 
@@ -304,7 +330,8 @@ header.masthead .intro-text .text-grouping .intro-heading {
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 #videos .portfolio-item .portfolio-caption h4 {
@@ -317,6 +344,10 @@ header.masthead .intro-text .text-grouping .intro-heading {
   font-style: italic;
   margin: 0;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#videos .portfolio-item .portfolio-caption .text-muted {
+  color: #868e96 !important;
 }
 
 #videos * {
