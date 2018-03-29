@@ -239,7 +239,7 @@ header.masthead .intro-text .text-grouping .intro-heading {
   background-image: url("../img/banner_event.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: -1300px 0;
+  background-position: -1450px 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -258,6 +258,12 @@ header.masthead .intro-text .text-grouping .intro-heading {
   margin-bottom: 15px 0;
   text-transform: none;
   color: #aaa !important;
+}
+
+@media (min-width: 576px) {
+  #about {
+    background-position: -1300px 0;
+  }
 }
 
 @media (min-width: 767px) {
