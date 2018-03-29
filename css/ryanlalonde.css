@@ -212,6 +212,9 @@ header.masthead .intro-text .text-grouping .intro-heading {
 }
 
 @media (min-width: 768px) {
+  header.masthead {
+    background-attachment: fixed;
+  }
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -252,6 +255,12 @@ header.masthead .intro-text .text-grouping .intro-heading {
   margin-bottom: 15px 0;
   text-transform: none;
   color: #aaa !important;
+}
+
+@media (min-width: 767px) {
+  #about {
+    background-attachment: fixed;
+  }
 }
 
 #videos {
@@ -352,6 +361,9 @@ header.masthead .intro-text .text-grouping .intro-heading {
 }
 
 @media (min-width: 767px) {
+  #videos {
+    background-attachment: fixed;
+  }
   #videos .portfolio-item {
     margin: 0 0 30px;
   }
