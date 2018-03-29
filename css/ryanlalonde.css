@@ -233,16 +233,16 @@ header.masthead .intro-text .text-grouping .intro-heading {
   }
 }
 
-#events {
+#about {
   background-image: url("../img/banner_event.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
 }
 
-#events .text-grouping {
+#about .text-grouping {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   color: white;
@@ -250,7 +250,7 @@ header.masthead .intro-text .text-grouping .intro-heading {
   margin-bottom: 100px;
 }
 
-#events .section-subheading {
+#about .text-muted {
   margin-bottom: 15px 0;
   text-transform: none;
   color: #aaa !important;
