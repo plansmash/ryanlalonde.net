@@ -176,7 +176,6 @@ header.masthead {
   color: white;
   background-image: url("../img/banner_head.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
