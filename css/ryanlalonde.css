@@ -239,7 +239,10 @@ header.masthead .intro-text .text-grouping .intro-heading {
   background-image: url("../img/banner_event.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: right center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
