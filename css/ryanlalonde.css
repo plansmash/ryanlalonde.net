@@ -237,7 +237,6 @@ header.masthead .intro-text .text-grouping .intro-heading {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -260,7 +259,6 @@ header.masthead .intro-text .text-grouping .intro-heading {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
