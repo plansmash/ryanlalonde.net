@@ -260,6 +260,12 @@ header.masthead .intro-text .text-grouping .intro-heading {
   color: #aaa !important;
 }
 
+@media (min-width: 767px) {
+  #about {
+    background-attachment: initial;
+  }
+}
+
 #videos {
   background-image: url("../img/banner_video.jpg");
   background-repeat: no-repeat;
