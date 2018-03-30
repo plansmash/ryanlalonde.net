@@ -240,6 +240,7 @@ header.masthead .intro-text .text-grouping .intro-heading {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right top;
+  background-size: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -260,9 +261,15 @@ header.masthead .intro-text .text-grouping .intro-heading {
   color: #aaa !important;
 }
 
-@media (min-width: 767px) {
+@media (max-width: 576px) {
   #about {
     background-attachment: initial;
+  }
+}
+
+@media (min-width: 767px) {
+  #about {
+    background-attachment: fixed;
   }
 }
 
