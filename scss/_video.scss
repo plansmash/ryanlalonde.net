@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-attachment: fixed;
   @include background-cover;
   text-align: center;
   iframe {
@@ -81,6 +80,8 @@
 }
 @media(min-width:767px) {
   #videos {
+    background-attachment: fixed;
+    background-position: center center;
     .portfolio-item {
       margin: 0 0 30px;
     }

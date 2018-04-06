@@ -30,7 +30,6 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -103,4 +102,18 @@ img::-moz-selection {
 
 .bg-light {
   color: #000;
+}
+
+// Parallax
+.photo {
+  background-attachment: fixed;
+  background-position: 1000px;
+  background-repeat: no-repeat;
+}
+
+@media(min-width:768px) {
+  .photo {
+    background-position: 50% bottom;
+    background-position: center;
+  }
 }

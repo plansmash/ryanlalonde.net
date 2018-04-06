@@ -4,7 +4,6 @@ header.masthead {
   color: white;
   background-image: url('../img/banner_head.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center center;
   @include background-cover;
   .intro-text {
@@ -34,6 +33,7 @@ header.masthead {
 }
 @media(min-width:768px) {
   header.masthead {
+    background-attachment: fixed;
     .intro-text {
       padding-top: 300px;
       padding-bottom: 200px;
