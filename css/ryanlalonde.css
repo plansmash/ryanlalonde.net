@@ -249,6 +249,11 @@ header.masthead .intro-text .text-grouping .intro-heading {
   color: #aaa !important;
 }
 
+#about .parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
 #videos {
   background-image: url("../img/banner_video.jpg");
   background-repeat: no-repeat;
