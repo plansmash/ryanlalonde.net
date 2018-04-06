@@ -105,6 +105,11 @@ img::-moz-selection {
   color: #000;
 }
 
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
 #mainNav {
   background-color: #000;
 }
@@ -247,11 +252,6 @@ header.masthead .intro-text .text-grouping .intro-heading {
   margin-bottom: 15px 0;
   text-transform: none;
   color: #aaa !important;
-}
-
-#about .parallax-window {
-  min-height: 400px;
-  background: transparent;
 }
 
 #videos {
