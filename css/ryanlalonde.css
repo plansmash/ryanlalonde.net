@@ -109,7 +109,7 @@ img::-moz-selection {
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  position: relative;
+  background-size: cover;
 }
 
 #mainNav {
