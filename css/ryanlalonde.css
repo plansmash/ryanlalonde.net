@@ -110,7 +110,6 @@ img::-moz-selection {
   background-position: 50% 0;
   background-repeat: no-repeat;
   position: relative;
-  background-size: cover;
 }
 
 #mainNav {
