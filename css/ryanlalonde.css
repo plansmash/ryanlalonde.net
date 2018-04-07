@@ -105,9 +105,11 @@ img::-moz-selection {
   color: #000;
 }
 
-.parallax-window {
-  min-height: 400px;
-  background: transparent;
+.photo {
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 #mainNav {
@@ -238,6 +240,10 @@ header.masthead .intro-text .text-grouping .intro-heading {
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+}
+
+#about {
+  background-image: url("../img/banner_event.png");
 }
 
 #about .text-grouping {
