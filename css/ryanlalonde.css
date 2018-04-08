@@ -103,7 +103,7 @@ img::-moz-selection {
 
 .photo {
   background-attachment: fixed;
-  background-position: 70% bottom;
+  background-position: 1000px;
   background-repeat: no-repeat;
 }
 
