@@ -106,13 +106,11 @@ img::-moz-selection {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  background-size: cover;
 }
 
 @media (min-width: 768px) {
   .photo {
     background-position: 70% bottom;
-    background-size: initial;
   }
 }
 
