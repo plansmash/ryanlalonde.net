@@ -176,8 +176,8 @@ header.masthead {
   color: white;
   background-image: url("../img/banner_head.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -214,8 +214,8 @@ header.masthead .intro-text .text-grouping .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    background-attachment: fixed;
     background-position: center center;
+    background-attachment: fixed;
   }
   header.masthead .intro-text {
     padding-top: 300px;
@@ -260,7 +260,6 @@ header.masthead .intro-text .text-grouping .intro-heading {
 
 @media (min-width: 768px) {
   #about {
-    background-attachment: scroll;
     background-position: center center;
     background-attachment: fixed;
   }
