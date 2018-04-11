@@ -236,9 +236,7 @@ header.masthead .intro-text .text-grouping .intro-heading {
 #about {
   background-image: url("../img/banner_event.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: 70%;
   background-size: cover;
 }
 
@@ -254,6 +252,14 @@ header.masthead .intro-text .text-grouping .intro-heading {
   margin-bottom: 15px 0;
   text-transform: none;
   color: #aaa !important;
+}
+
+@media (min-width: 768px) {
+  #about {
+    background-attachment: scroll;
+    background-position: center center;
+    background-attachment: fixed;
+  }
 }
 
 #videos {
