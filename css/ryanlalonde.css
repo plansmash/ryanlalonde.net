@@ -29,6 +29,10 @@ h6 {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+section {
+  padding: 100px 0;
+}
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -99,19 +103,6 @@ img::-moz-selection {
 
 .bg-light {
   color: #000;
-}
-
-.photo {
-  background-attachment: fixed;
-  background-position: 1000px;
-  background-repeat: no-repeat;
-}
-
-@media (min-width: 768px) {
-  .photo {
-    background-position: 50% bottom;
-    background-position: center;
-  }
 }
 
 #mainNav {
@@ -185,6 +176,7 @@ header.masthead {
   color: white;
   background-image: url("../img/banner_head.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,9 +213,6 @@ header.masthead .intro-text .text-grouping .intro-heading {
 }
 
 @media (min-width: 768px) {
-  header.masthead {
-    background-attachment: fixed;
-  }
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -246,7 +235,11 @@ header.masthead .intro-text .text-grouping .intro-heading {
 
 #about {
   background-image: url("../img/banner_event.png");
-  padding-bottom: 10px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #about .text-grouping {
@@ -268,6 +261,7 @@ header.masthead .intro-text .text-grouping .intro-heading {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -361,10 +355,6 @@ header.masthead .intro-text .text-grouping .intro-heading {
 }
 
 @media (min-width: 767px) {
-  #videos {
-    background-attachment: fixed;
-    background-position: center center;
-  }
   #videos .portfolio-item {
     margin: 0 0 30px;
   }
